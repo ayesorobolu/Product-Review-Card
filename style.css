@@ -1,0 +1,125 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+background-color: hsl(30, 38%, 92%);
+}
+
+.main{
+display: flex;
+justify-content:center;
+align-items: center;
+flex-direction: row;
+height: 100vh; 
+}
+
+.img{
+    height: 55vh;
+    border-bottom-left-radius: 10px; 
+    border-top-left-radius: 10px;
+}
+.txt{
+    background-color: hsl(0, 0%, 100%);
+    width: 225px;
+    height: 55vh;
+    border-bottom-right-radius: 10px; 
+    border-top-right-radius: 10px;
+    padding: 0px 40px 0 30px;
+}
+
+.txt h1{
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(212, 21%, 14%);
+    }
+   
+.txt h1 p{
+   margin: 0px;   
+}    
+
+.txt1{
+font-family:Montserrat;    
+color: hsl(228, 12%, 48%);
+}
+
+.txt2 p{
+    margin: 3px 0px 3px 0px;   
+    font-family:Montserrat;    
+    color: hsl(228, 12%, 48%);
+    font-size: 14px; 
+}
+.txt3{
+color: hsl(158, 36%, 37%);font-family: Fraunces;
+font-weight: 700;
+font-size: 30px;
+}
+
+.txt4{
+text-decoration: line-through; 
+color: hsl(228, 12%, 48%);    
+}
+
+table {
+    margin-top: 13px;
+    width: 95%;
+}
+
+button{
+    height: 5vh;
+    width: 230px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-family:Montserrat; 
+    margin-top: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+    .main{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh; 
+        }
+
+        .img{
+            height: 30vh;
+            width: 330px;
+            border-bottom-left-radius: 0px; 
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            
+        }
+
+        .txt{
+            background-color: hsl(0, 0%, 100%);
+            width: 260px;
+            height: 44vh;
+            border-bottom-right-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+            border-top-right-radius: 0px;
+            padding: 0px 40px 0 30px;
+        }
+        
+        table {
+            width: 95%;
+        }
+        
+        button{
+            height: 5vh;
+            width: 270px;
+            background-color: hsl(158, 36%, 37%);
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            border: none;
+            font-family:Montserrat; 
+        }
+        
+        
+}
